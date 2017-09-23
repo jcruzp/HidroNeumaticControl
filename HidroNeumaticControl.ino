@@ -32,15 +32,15 @@
 //#define USE_CAYENNE
 //#define isDEBUG
 
-const char *ssid = "Linksys23585"; // Wifi SSID
-const char *pass = "xevxrtcdyg";   // Wifi password
+const char *ssid = "YOUR WIFI SSID"; // Wifi SSID
+const char *pass = "YOUR WIFI PASSWORD";   // Wifi password
 
-const String clientID = "543e3a30-98e0-11e7-bba6-6918eb39b85e";
+const String clientID = "YOUR CLIENT ID AT CAYENNE CLOUD";
 
 #ifdef USE_CAYENNE
 // Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
-const String username = "901d37f0-7427-11e7-a87d-cd42fea199a6";
-const char password[] = "afb3e339d95fd1c11c14db0027701e31f66c3f04";
+const String username = "YOUR MQTT USERNAME AT CAYENNE CLOUD";
+const char password[] = "YOUR MQTT PASSWORD AT CAYENNE CLOUD";
 const char *mqtt_server = "mqtt.mydevices.com";
 const int mqtt_port = 1883;
 
