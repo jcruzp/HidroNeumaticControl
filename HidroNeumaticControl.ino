@@ -29,7 +29,7 @@
 #include <Adafruit_MCP23008.h>
 #include <LiquidCrystal_I2C.h>
 
-//#define USE_CAYENNE
+#define USE_CAYENNE
 //#define isDEBUG
 
 const char *ssid = "YOUR WIFI SSID"; // Wifi SSID
